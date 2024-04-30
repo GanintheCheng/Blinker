@@ -11,13 +11,8 @@
     {
       "path": "pages/index/index",
       "style": {
-        "navigationBarTitleText": "uni-app"
-      }
-    },
-    {
-      "path": "pages/my/my",
-      "style": {
-        "navigationBarTitleText": "我的"
+        "navigationBarTitleText": "首页",
+        "navigationStyle": "custom"
       }
     }
   ],
@@ -27,10 +22,109 @@
     "navigationBarBackgroundColor": "#F8F8F8",
     "backgroundColor": "#F8F8F8"
   },
-  "tabBar": {
-    "list": [
-      { "text": "首页", "pagePath": "pages/index/index" },
-      { "text": "我的", "pagePath": "pages/my/my" }
-    ]
-  }
+  "subPackages": [
+    {
+      "root": "pagesMember",
+      "pages": [
+        {
+          "path": "addAdvice/addAdvice",
+          "style": {
+            "navigationBarTitleText": "添加设备",
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "mangerAdvice/mangerAdvice",
+          "style": {
+            "navigationBarTitleText": "管理设备",
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "shareAdvice/shareAdvice",
+          "style": {
+            "navigationBarTitleText": "管理设备",
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "mangerScene/mangerScene",
+          "style": {
+            "navigationBarTitleText": "场景管理",
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "modifyScene/modifyScene",
+          "style": {
+            "navigationBarTitleText": "编辑场景",
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "addAdviceDetail/addAdviceDetail",
+          "style": {
+            "navigationBarTitleText": "添加设备详情",
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "blueTooth/blueTooth",
+          "style": {
+            "navigationBarTitleText": "蓝牙连接",
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "wifiTooth/wifiTooth",
+          "style": {
+            "navigationBarTitleText": "网络接入",
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "nextTooth/nextTooth",
+          "style": {
+            "navigationBarTitleText": "下一步",
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "mangerArea/mangerArea",
+          "style": {
+            "navigationBarTitleText": "mangerArea",
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "newArea/newArea",
+          "style": {
+            "navigationBarTitleText": "新的房间",
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "aboutUs/aboutUs",
+          "style": {
+            "navigationBarTitleText": "关于我们",
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "feedBack/feedBack",
+          "style": {
+            "navigationBarTitleText": "反馈",
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "adviceDetail/adviceDetail",
+          "style": {
+            "navigationBarTitleText": "设备详情",
+            "navigationStyle": "custom"
+          }
+        }
+      ]
+    }
+  ]
 }
